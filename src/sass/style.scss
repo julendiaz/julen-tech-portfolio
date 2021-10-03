@@ -1,26 +1,34 @@
 // 1_base
 
-@use "./1_base/global.scss";
+@use "./1_base/_global.scss";
+@use "./1_base/_colors.scss";
+@use "./1_base/_reset.scss";
+@use "./1_base/_typography.scss";
 
 // // 2_utils
-// @use "./2_utils/mixins";
+@use "./2_utils/_functions.scss";
+@use "./2_utils/_mixins.scss";
 
 // // 3_layout
-// @use "./3_layout/stage-container";
-// @use "./3_layout/main-container";
-// @use "./3_layout/form-container";
-// @use "./3_layout/header";
-// @use "./3_layout/footer";
-// @use "./3_layout/modal";
+@use "./3_layout/_footer.scss";
+@use "./3_layout/_form-container.scss";
+@use "./3_layout/_header.scss";
+@use "./3_layout/_main-container.scss";
+@use "./3_layout/_modal.scss";
+@use "./3_layout/_stage-container.scss";
 
 // // 4_modules
-// @use "./4_modules/navbar";
-// @use "./4_modules/jumbotron";
-// @use "./4_modules/about";
-// @use "./4_modules/project";
+@use "./4_modules/_navbar.scss";
+@use "./4_modules/_jumbotron.scss";
+@use "./4_modules/_about.scss";
+@use "./4_modules/_project.scss";
+@use "./4_modules/_button.scss";
+@use "./4_modules/_icons.scss";
+@use "./4_modules/_main-logo.scss";
+@use "./4_modules/_project-card.scss";
+@use "./4_modules/_tag.scss";
+@use "./4_modules/_testimonial.scss";
+@use "./4_modules/_youtube.scss";
 
-// // 5_states
-// @use "./5_states/states";
-
-// // 6_queries
-// @use "./6_queries/queries";
+// 6_queries
+@use "./5_queries/_queries.scss";
