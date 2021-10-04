@@ -1,5 +1,34 @@
 :root {
   font-family: "Courier New", Courier, monospace;
   font-size: 2em;
-  color: pink;
+  color: red;
+  background-color: #97f8b2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input[type=text]::-moz-placeholder {
+  opacity: 1;
+}
+
+input[type=text]:-ms-input-placeholder {
+  opacity: 1;
+}
+
+input[type=text]::placeholder {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
