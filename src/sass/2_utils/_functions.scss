@@ -7,7 +7,14 @@ $font-weights: (
   "black": 900,
 );
 
+$font-sizes: (
+  "navlinks": 0.6em,
+);
 // Function to use probably in style.scss or main.scss because of scope
 @function weight($weight-name) {
   @return map-get($font-weights, $weight-name);
+}
+
+@function size($font-name) {
+  @return map-get($font-sizes, $font-name);
 }
