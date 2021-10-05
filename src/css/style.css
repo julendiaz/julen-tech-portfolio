@@ -32,4 +32,8 @@ input[type=text]:-ms-input-placeholder {
 
 input[type=text]::placeholder {
   opacity: 1;
+}
+
+.Navbar {
+  background-color: yellow;
 }/*# sourceMappingURL=style.css.map */

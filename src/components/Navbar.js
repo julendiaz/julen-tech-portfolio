@@ -4,7 +4,7 @@ export const Navbar = (props) => {
   return (
     <div className="Navbar">
       <div>
-        <img src="#" alt="Julen Tech Logo"></img>
+        <img className="logo" src={window.location.origin + '/assets/tech-logo.svg'} alt="Julen Tech Logo"></img>
       </div>
       <nav class="menu">
         <ul>

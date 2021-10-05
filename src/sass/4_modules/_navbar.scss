@@ -1,0 +1,7 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.Navbar {
+  background-color: yellow;
+}
