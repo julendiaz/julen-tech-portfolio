@@ -1,0 +1,40 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.jumbotron {
+  //   background-color: yellow;
+  width: 100%;
+  height: 33em;
+  position: relative;
+  &__text-container {
+    @include flex(column, left, space-between);
+    position: absolute;
+    bottom: 3em;
+    // background-color: blue;
+    width: 70%;
+    height: 27em;
+    padding-left: 8em;
+  }
+
+  &__main-title {
+    font-size: size(big-title);
+    font-weight: weight(superlight);
+
+    span {
+      font-weight: weight(super);
+    }
+  }
+
+  h5 {
+    margin-bottom: -1.3em;
+    margin-left: 0.3em;
+    font-weight: weight(medium);
+    font-size: size(heading5);
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 1.1em;
+  }
+}

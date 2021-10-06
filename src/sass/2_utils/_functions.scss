@@ -4,12 +4,14 @@ $font-weights: (
   "regular": 400,
   "medium": 600,
   "bold": 700,
-  "black": 900,
+  "super": 900,
 );
 
 $font-sizes: (
-  "navlinks": 0.6em,
+  "navlinks": 1.1em,
   "button": 0.9em,
+  "big-title": 4.3em,
+  "heading5": 1.1em,
 );
 // Function to use probably in style.scss or main.scss because of scope
 @function weight($weight-name) {

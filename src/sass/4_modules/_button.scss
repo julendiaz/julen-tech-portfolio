@@ -26,4 +26,18 @@
       background-color: $blue_hover;
     }
   }
+
+  &--jumbotron {
+    background-color: transparent;
+    border: 5px solid $black_800;
+    width: 15em;
+    height: 3.3em;
+    color: $black_700;
+    font-weight: weight(medium);
+
+    &:hover {
+      background-color: $black_800;
+      color: $white_100;
+    }
+  }
 }
