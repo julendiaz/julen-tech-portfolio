@@ -9,6 +9,7 @@ $font-weights: (
 
 $font-sizes: (
   "navlinks": 0.6em,
+  "button": 0.9em,
 );
 // Function to use probably in style.scss or main.scss because of scope
 @function weight($weight-name) {

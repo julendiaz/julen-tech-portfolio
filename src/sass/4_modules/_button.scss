@@ -1,0 +1,29 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.button {
+  background-color: $black_700;
+  color: $white_100;
+  width: 7em;
+  height: 2em;
+  font-size: size(button);
+  cursor: pointer;
+
+  &--subscribe {
+    background-color: $green;
+    margin-right: -3em;
+    color: $black_700;
+    &:hover {
+      background-color: $green_hover;
+    }
+  }
+
+  &--contact {
+    background-color: $blue;
+    color: $black_700;
+    &:hover {
+      background-color: $blue_hover;
+    }
+  }
+}

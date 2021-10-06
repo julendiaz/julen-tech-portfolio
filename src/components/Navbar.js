@@ -12,8 +12,8 @@ export const Navbar = (props) => {
           <li className="nav__link"><a href="#">work</a></li>
           <li className="nav__link"><a href="#">youtube</a></li>
           <li className="nav__link"><a href="#">shop</a></li>
-          <button className="nav__button">subscribe</button>
-          <button className="nav__button">contact</button>
+          <button className="button button--subscribe">subscribe</button>
+          <button className="button button--contact">contact</button>
         </ul>
       </nav>
     </div>
