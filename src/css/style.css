@@ -133,6 +133,8 @@ ul {
   padding-top: 0.4em;
   padding-left: 3em;
   padding-right: 3em;
+  z-index: 2;
+  position: relative;
 }
 .stats__certifications-container {
   width: 58%;
@@ -165,7 +167,7 @@ ul {
   background-color: #303030;
   color: #fafafa;
   width: 7em;
-  height: 2em;
+  height: 2.5em;
   font-size: 0.9em;
   cursor: pointer;
 }
@@ -210,4 +212,37 @@ ul {
 }
 .main-logo:hover {
   opacity: 1;
+}
+
+.about {
+  display: flex;
+  flex-direction: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 33em;
+  background-color: #303030;
+  color: #fafafa;
+  margin-top: -5em;
+  z-index: 0;
+  position: relative;
+  padding-top: 7em;
+}
+.about__text {
+  width: 33em;
+  height: 22em;
+  font-weight: 300;
+}
+.about__text--left {
+  margin-right: 1.8em;
+}
+.about__text h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.about__text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */

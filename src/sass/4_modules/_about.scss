@@ -1,0 +1,36 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.about {
+  @include flex(0, center, center);
+  width: 100%;
+  height: 33em;
+  background-color: $black_700;
+  color: $white_100;
+  margin-top: -5em;
+  z-index: 0;
+  position: relative;
+  padding-top: 7em;
+
+  &__text {
+    width: 33em;
+    height: 22em;
+    font-weight: weight(light);
+    &--left {
+      margin-right: 1.8em;
+    }
+
+    h1 {
+      font-size: size(medium-title);
+      font-weight: weight(bold);
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: size(paragraph);
+      line-height: 1.5;
+      text-align: justify;
+    }
+  }
+}

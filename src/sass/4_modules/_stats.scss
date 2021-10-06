@@ -12,7 +12,8 @@
   padding-top: 0.4em;
   padding-left: 3em;
   padding-right: 3em;
-
+  z-index: 2;
+  position: relative;
   &__certifications-container {
     width: 58%;
   }
