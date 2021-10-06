@@ -1,0 +1,45 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.about {
+  @include flex(0, center, space-between);
+  background-color: $black_800;
+  color: $white_100;
+  width: 75%;
+  height: 10em;
+  margin: 5em auto 0 auto;
+  padding-top: 0.4em;
+  padding-left: 3em;
+  padding-right: 3em;
+
+  &__certifications-container {
+    width: 58%;
+  }
+
+  &__certifications {
+    @include flex(0, center, space-between);
+  }
+
+  &__img {
+    width: 3em;
+
+    &--uji {
+      width: 14em;
+    }
+
+    &--free {
+      width: 12em;
+      margin-left: -1.2em;
+    }
+  }
+
+  &__stats {
+    text-align: center;
+
+    h2 {
+      font-size: size(big-title);
+      margin-top: -0.2em;
+    }
+  }
+}
