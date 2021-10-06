@@ -2,7 +2,7 @@
 @use "../2_utils/mixins" as *;
 @use "../2_utils/functions" as *;
 
-.about {
+.stats {
   @include flex(0, center, space-between);
   background-color: $black_800;
   color: $white_100;
