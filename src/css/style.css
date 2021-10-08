@@ -200,12 +200,10 @@ ul {
   color: #fafafa;
 }
 .button--project {
-  width: 10em;
-  height: 3em;
   font-size: 1.2em;
   font-weight: 300;
-  margin-top: 1.2em;
   margin-right: 0.8em;
+  padding: 0.8em 1.8em;
 }
 .button--project:hover {
   background-color: #161616;
@@ -247,6 +245,10 @@ ul {
 }
 .project__division--image {
   background-color: yellowgreen;
+  width: 100%;
+}
+.project__division--image img {
+  width: 100%;
 }
 .project__stack {
   display: flex;
@@ -257,6 +259,7 @@ ul {
   height: 2em;
 }
 .project__title {
+  margin-top: 0.1em;
   font-size: 4.3em;
   font-weight: 900;
   line-height: 1;
@@ -265,6 +268,9 @@ ul {
   font-size: 1.2em;
   line-height: 1.6;
   margin-top: 0.7em;
+}
+.project__links {
+  margin-top: 3em;
 }
 
 .tag--stack {

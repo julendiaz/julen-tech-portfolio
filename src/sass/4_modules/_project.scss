@@ -23,6 +23,10 @@
 
     &--image {
       background-color: yellowgreen;
+      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -33,6 +37,7 @@
   }
 
   &__title {
+    margin-top: 0.1em;
     font-size: size(big-title);
     font-weight: weight(super);
     line-height: 1;
@@ -42,5 +47,9 @@
     font-size: size(paragraph);
     line-height: 1.6;
     margin-top: 0.7em;
+  }
+
+  &__links {
+    margin-top: 3em;
   }
 }

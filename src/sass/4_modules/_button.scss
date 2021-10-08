@@ -44,12 +44,10 @@
   }
 
   &--project {
-    width: 10em;
-    height: 3em;
     font-size: 1.2em;
     font-weight: weight(light);
-    margin-top: 1.2em;
     margin-right: 0.8em;
+    padding: 0.8em 1.8em;
     &:hover {
       background-color: $black_800;
     }
