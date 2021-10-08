@@ -1,6 +1,7 @@
 @use "../1_base/colors" as *;
 @use "../2_utils/mixins" as *;
 @use "../2_utils/functions" as *;
+@use "../1_base/typography" as *;
 
 .button {
   background-color: $black_700;
@@ -9,6 +10,7 @@
   height: 2.5em;
   font-size: size(button);
   cursor: pointer;
+  font-family: $font_family;
 
   &--subscribe {
     background-color: $green;
@@ -38,6 +40,18 @@
     &:hover {
       background-color: $black_800;
       color: $white_100;
+    }
+  }
+
+  &--project {
+    width: 10em;
+    height: 3em;
+    font-size: 1.2em;
+    font-weight: weight(light);
+    margin-top: 1.2em;
+    margin-right: 0.8em;
+    &:hover {
+      background-color: $black_800;
     }
   }
 }

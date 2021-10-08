@@ -170,6 +170,7 @@ ul {
   height: 2.5em;
   font-size: 0.9em;
   cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .button--subscribe {
   background-color: #97f8b2;
@@ -197,6 +198,17 @@ ul {
 .button--jumbotron:hover {
   background-color: #161616;
   color: #fafafa;
+}
+.button--project {
+  width: 10em;
+  height: 3em;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 1.2em;
+  margin-right: 0.8em;
+}
+.button--project:hover {
+  background-color: #161616;
 }
 
 .main-logo-container {
