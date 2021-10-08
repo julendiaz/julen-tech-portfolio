@@ -23,3 +23,9 @@ $font-sizes: (
 @function size($font-name) {
   @return map-get($font-sizes, $font-name);
 }
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}

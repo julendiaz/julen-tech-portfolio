@@ -214,6 +214,44 @@ ul {
   opacity: 1;
 }
 
+.project__container {
+  display: flex;
+  flex-direction: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 70.8522727273em;
+  height: 35.7954545455em;
+  background-color: #f98c81;
+  margin: 0 auto;
+  border: 0.9375em solid #161616;
+}
+.project__division {
+  width: 50%;
+  height: 100%;
+}
+.project__division--text {
+  padding: 5em 3em 2em 5em;
+  color: #161616;
+}
+.project__division--image {
+  background-color: yellowgreen;
+}
+.project__stack {
+  width: 20em;
+  height: 2em;
+  background-color: black;
+}
+.project__title {
+  font-size: 4.3em;
+  font-weight: 900;
+  line-height: 1;
+}
+.project__description {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 0.7em;
+}
+
 .about {
   display: flex;
   flex-direction: 0;

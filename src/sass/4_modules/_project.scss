@@ -1,0 +1,46 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.project {
+  &__container {
+    @include flex(0, center, space-between);
+    width: em(1247 / 1.1);
+    height: em(630 / 1.1);
+    background-color: $red;
+    margin: 0 auto;
+    border: em(15) solid $black_800;
+  }
+
+  &__division {
+    width: 50%;
+    height: 100%;
+
+    &--text {
+      padding: 5em 3em 2em 5em;
+      color: $black_800;
+    }
+
+    &--image {
+      background-color: yellowgreen;
+    }
+  }
+
+  &__stack {
+    width: 20em;
+    height: 2em;
+    background-color: black;
+  }
+
+  &__title {
+    font-size: size(big-title);
+    font-weight: weight(super);
+    line-height: 1;
+  }
+
+  &__description {
+    font-size: size(paragraph);
+    line-height: 1.6;
+    margin-top: 0.7em;
+  }
+}
