@@ -1,0 +1,17 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+@use "../1_base/typography" as *;
+
+.tag {
+  &--stack {
+    display: inline-block;
+    padding: 0.4em 0.6em;
+    font-size: 0.75em;
+    font-weight: weight(regular);
+    color: $black_800;
+    background-color: $white_100;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+  }
+}

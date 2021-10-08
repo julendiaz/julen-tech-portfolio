@@ -249,9 +249,12 @@ ul {
   background-color: yellowgreen;
 }
 .project__stack {
-  width: 20em;
+  display: flex;
+  flex-direction: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 23em;
   height: 2em;
-  background-color: black;
 }
 .project__title {
   font-size: 4.3em;
@@ -262,6 +265,17 @@ ul {
   font-size: 1.2em;
   line-height: 1.6;
   margin-top: 0.7em;
+}
+
+.tag--stack {
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: #161616;
+  background-color: #fafafa;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
 }
 
 .about {

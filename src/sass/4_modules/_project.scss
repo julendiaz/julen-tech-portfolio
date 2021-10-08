@@ -27,9 +27,9 @@
   }
 
   &__stack {
-    width: 20em;
+    @include flex(0, center, flex-start);
+    width: 23em;
     height: 2em;
-    background-color: black;
   }
 
   &__title {
