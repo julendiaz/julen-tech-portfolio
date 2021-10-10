@@ -18,7 +18,7 @@ const superjob = {
       source: "https://github.com/julendiaz/superjob",
       preview: "https://julendiaz.github.io/superjob/",
   },
-  image: "https://user-images.githubusercontent.com/66780327/130353281-3aea537f-00b3-4099-8fdd-c8a18426b8ea.png",
+  image: "./assets/superjob-thumbnail.png",
   alt: "Project Thumbnail for Superjob",
 }
 

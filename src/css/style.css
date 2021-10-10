@@ -229,7 +229,7 @@ ul {
   flex-direction: 0;
   align-items: center;
   justify-content: space-between;
-  width: 70.8522727273em;
+  width: 71.5909090909em;
   height: 35.7954545455em;
   background-color: #f98c81;
   margin: 0 auto;
@@ -245,10 +245,13 @@ ul {
 }
 .project__division--image {
   background-color: yellowgreen;
-  width: 100%;
+  width: 50%;
 }
 .project__division--image img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .project__stack {
   display: flex;
