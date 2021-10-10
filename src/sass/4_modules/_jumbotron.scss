@@ -7,6 +7,7 @@
   width: 100%;
   height: 33em;
   position: relative;
+  margin-top: 3em;
   &__text-container {
     @include flex(column, left, space-between);
     position: absolute;
@@ -36,5 +37,21 @@
   p {
     line-height: 1.5;
     font-size: 1.1em;
+  }
+
+  &__social-media {
+    margin-top: 2em;
+    width: 100%;
+    height: 1.8em;
+
+    &--logo {
+      width: 1.8em;
+      height: auto;
+      opacity: 0.5;
+      margin-right: 2em;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
   }
 }

@@ -5,22 +5,7 @@ import { Jumbotron } from './components/Jumbotron';
 import { Stats } from './components/Stats';
 import { About } from './components/About';
 import { Project } from './components/Project';
-
-const superjob = {
-  title: "Superjob Tracker",
-  description: "Job Application Tracker with a Kanban Board for helping during the job hunt. This is a collaboration project between Nicolás Ríos and myself.",
-  stack: {
-      one: "🧬 React",
-      two: "📦️ Webpack",
-      three: "🖌️ Sass",
-  },
-  links: {
-      source: "https://github.com/julendiaz/superjob",
-      preview: "https://julendiaz.github.io/superjob/",
-  },
-  image: "./assets/superjob-thumbnail.png",
-  alt: "Project Thumbnail for Superjob",
-}
+import { superjob } from './components/project-data';
 
 function App() {
   return (

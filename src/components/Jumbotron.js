@@ -10,7 +10,10 @@ export const Jumbotron = () => {
                     based in <span>Germany</span></h1>
                 <p>I love building meaningful applications through clean, scalable and modular code.<br/> 
                 On my Youtube Channel, I help people write stronger code and develop good habits. </p>
-                <button className="button button--jumbotron">LET'S WORK TOGETHER</button>
+                <div className="jumbotron__social-media">
+                    <a href="https://github.com/julendiaz" target="_blank" rel="noreferrer"><img className="jumbotron__social-media--logo" src={window.location.origin + '/assets/github-logo.png'} alt="Github Logo"></img></a>
+                    <a href="https://twitter.com/julentech" target="_blank" rel="noreferrer"><img className="jumbotron__social-media--logo" src={window.location.origin + '/assets/twitter-logo.png'} alt="Twitter Logo"></img></a>
+                </div>
             </div>
         </div>
     )

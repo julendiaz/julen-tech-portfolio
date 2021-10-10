@@ -90,6 +90,7 @@ ul {
   width: 100%;
   height: 33em;
   position: relative;
+  margin-top: 3em;
 }
 .jumbotron__text-container {
   display: flex;
@@ -118,6 +119,20 @@ ul {
 .jumbotron p {
   line-height: 1.5;
   font-size: 1.1em;
+}
+.jumbotron__social-media {
+  margin-top: 2em;
+  width: 100%;
+  height: 1.8em;
+}
+.jumbotron__social-media--logo {
+  width: 1.8em;
+  height: auto;
+  opacity: 0.5;
+  margin-right: 2em;
+}
+.jumbotron__social-media--logo:hover {
+  opacity: 0.9;
 }
 
 .stats {
@@ -188,16 +203,15 @@ ul {
   background-color: #81bae0;
 }
 .button--jumbotron {
-  background-color: transparent;
-  border: 5px solid #161616;
-  width: 15em;
-  height: 3.3em;
-  color: #303030;
-  font-weight: 600;
+  width: 14em;
+  height: 3em;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-right: 0.8em;
+  padding: 0.8em 1.8em;
 }
 .button--jumbotron:hover {
   background-color: #161616;
-  color: #fafafa;
 }
 .button--project {
   font-size: 1.2em;
@@ -224,6 +238,9 @@ ul {
   opacity: 1;
 }
 
+.project {
+  margin-top: 10em;
+}
 .project__container {
   display: flex;
   flex-direction: 0;
@@ -232,7 +249,7 @@ ul {
   width: 71.5909090909em;
   height: 35.7954545455em;
   background-color: #f98c81;
-  margin: 0 auto;
+  margin: 4em auto;
   border: 0.9375em solid #161616;
 }
 .project__division {
@@ -293,13 +310,13 @@ ul {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 33em;
+  height: 38em;
   background-color: #303030;
   color: #fafafa;
   margin-top: -5em;
   z-index: 0;
   position: relative;
-  padding-top: 7em;
+  padding-top: 4em;
 }
 .about__text {
   width: 33em;

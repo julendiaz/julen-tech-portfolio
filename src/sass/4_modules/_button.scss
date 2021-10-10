@@ -30,16 +30,14 @@
   }
 
   &--jumbotron {
-    background-color: transparent;
-    border: 5px solid $black_800;
-    width: 15em;
-    height: 3.3em;
-    color: $black_700;
-    font-weight: weight(medium);
-
+    width: 14em;
+    height: 3em;
+    font-size: 1.2em;
+    font-weight: weight(light);
+    margin-right: 0.8em;
+    padding: 0.8em 1.8em;
     &:hover {
       background-color: $black_800;
-      color: $white_100;
     }
   }
 

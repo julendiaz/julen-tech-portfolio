@@ -3,12 +3,14 @@
 @use "../2_utils/functions" as *;
 
 .project {
+  margin-top: 10em;
+
   &__container {
     @include flex(0, center, space-between);
     width: em(1260 / 1.1);
     height: em(630 / 1.1);
     background-color: $red;
-    margin: 0 auto;
+    margin: 4em auto;
     border: em(15) solid $black_800;
   }
 
