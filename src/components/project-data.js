@@ -13,6 +13,7 @@ export const superjob = {
     },
     image: "./assets/superjob-thumbnail.png",
     alt: "Project Thumbnail for Superjob",
+    style: "backgroundColor: '$green'",
   }
 
   export const github = {

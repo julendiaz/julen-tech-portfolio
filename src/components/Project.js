@@ -2,7 +2,7 @@ import React from "react";
 
 export const Project = (props) => {
     return (
-        <div className="project project__container">
+        <div className="project project__container" style={props.style}>
             <div className="project__division project__division--text">
                 <div className="project__stack">
                     <button className="tag tag--stack">{props.stack.one}</button>
