@@ -308,6 +308,33 @@ ul {
   margin-bottom: 0.5em;
 }
 
+.testimonial {
+  width: 60em;
+  margin: 0 auto;
+  background-color: yellow;
+}
+.testimonial__title {
+  font-size: 10em;
+  font-weight: 900;
+}
+.testimonial__container--single {
+  background-color: green;
+  width: 20em;
+  height: 8em;
+}
+.testimonial__photo-container {
+  background-color: blue;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+.testimonial__photo {
+  width: 4em;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .about {
   display: flex;
   flex-direction: 0;
