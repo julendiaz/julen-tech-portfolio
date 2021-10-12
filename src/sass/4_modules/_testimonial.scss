@@ -4,31 +4,53 @@
 
 .testimonial {
   width: 60em;
-  margin: 0 auto;
+  margin: 5em auto;
   background-color: yellow;
   &__title {
     font-size: size(super-title);
     font-weight: weight(super);
+    margin-bottom: 0.3em;
   }
 
   &__container {
     &--single {
-      background-color: green;
-      width: 20em;
-      height: 8em;
+      @include flex(0, center, flex-start);
+      background-color: $white_300;
+      width: 23em;
+      height: 6.5em;
+      padding-left: 2.5em;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $green;
+      }
     }
   }
 
   &__photo-container {
     background-color: blue;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
   }
 
   &__photo {
-    width: 4em;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__personal-info {
+    margin-left: 1em;
+  }
+
+  &__name {
+    font-size: size(heading5);
+  }
+
+  &__role {
+    font-size: 1.1em;
+    font-weight: weight(light);
   }
 }
