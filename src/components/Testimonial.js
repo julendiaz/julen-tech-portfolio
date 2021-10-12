@@ -4,17 +4,22 @@ import '../css/style.css';
 export const Testimonial = (props) => {
     function displayFeed(e) {
         const feedbackContainer = [...document.querySelectorAll(".testimonial__feedback-container")];
+        const testimonialContainer = [...document.querySelectorAll(".testimonial__container--single")];
+        
         switch(e.target.id) {
             case "josevi":
                 feedbackContainer[0].classList.remove("hide");
+                testimonialContainer[0].style.backgroundColor = "#97f8b2";
                 break;
             case "kilian":
                 feedbackContainer[1].classList.remove("hide");
                 feedbackContainer[1].style.marginTop = "1em";
+                testimonialContainer[1].style.backgroundColor = "#97d1f8";
                 break;
             case "laila":
                 feedbackContainer[2].classList.remove("hide");
                 feedbackContainer[2].style.marginTop = "-12em";
+                testimonialContainer[2].style.backgroundColor = "#fcc584";
                 break;
             default:
                 feedbackContainer[0].classList.remove("hide");
@@ -23,15 +28,21 @@ export const Testimonial = (props) => {
 
     function hideFeed(e) {
         const feedbackContainer = [...document.querySelectorAll(".testimonial__feedback-container")];
+        const testimonialContainer = [...document.querySelectorAll(".testimonial__container--single")];
+        
+        testimonialContainer[0].style.backgroundColor = "#fafafa";
         switch(e.target.id) {
             case "josevi":
                 feedbackContainer[0].classList.add("hide");
+                testimonialContainer[0].style.backgroundColor = "#fafafa";
                 break;
             case "kilian":
                 feedbackContainer[1].classList.add("hide");
+                testimonialContainer[1].style.backgroundColor = "#fafafa";
                 break;
             case "laila":
                 feedbackContainer[2].classList.add("hide");
+                testimonialContainer[2].style.backgroundColor = "#fafafa";
                 break;
             default:
                 feedbackContainer[0].classList.add("hide");
