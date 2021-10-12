@@ -5,7 +5,10 @@
 .testimonial {
   width: 60em;
   margin: 5em auto;
-  background-color: yellow;
+
+  &__feed {
+    @include flex(0, center, space-between);
+  }
   &__title {
     font-size: size(super-title);
     font-weight: weight(super);
@@ -15,7 +18,7 @@
   &__container {
     &--single {
       @include flex(0, center, flex-start);
-      background-color: $white_300;
+      background-color: $white_100;
       width: 23em;
       height: 6.5em;
       padding-left: 2.5em;
@@ -27,8 +30,25 @@
     }
   }
 
+  &__feedback-container {
+    width: 28em;
+    height: 20em;
+    position: absolute;
+    margin-left: 28em;
+    margin-top: 14em;
+
+    h5 {
+      font-size: 1.7em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: size(paragraph);
+      line-height: 1.5;
+    }
+  }
+
   &__photo-container {
-    background-color: blue;
     width: 3em;
     height: 3em;
     border-radius: 50%;
@@ -53,4 +73,8 @@
     font-size: 1.1em;
     font-weight: weight(light);
   }
+}
+
+.hide {
+  display: none;
 }
