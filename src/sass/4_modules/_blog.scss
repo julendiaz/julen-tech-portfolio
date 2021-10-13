@@ -1,0 +1,42 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.blog {
+  margin: 3em auto;
+  width: 60em;
+
+  &__heading {
+    @include flex(0, center, flex-start);
+    width: 100%;
+    height: 10em;
+    margin-bottom: 5em;
+
+    h1 {
+      font-size: size(super-title);
+      font-weight: weight(super);
+    }
+
+    h4 {
+      margin-top: 1.8em;
+      font-size: 1.6em;
+      line-height: 1.5;
+      font-weight: weight(light);
+      color: rgb(68, 68, 68);
+      margin-left: 1.5em;
+    }
+  }
+}
+
+.blogpost {
+  @include flex(0, center, center);
+  background-color: $white_100;
+  width: 100%;
+  height: 10em;
+  cursor: pointer;
+
+  &__link {
+    font-size: 2em;
+    font-weight: weight(light);
+  }
+}

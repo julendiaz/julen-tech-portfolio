@@ -8,6 +8,7 @@ import { Project } from './components/Project';
 import { superjob } from './components/project-data';
 import { blueCard, redCard, goldCard, greenCard } from './components/project-styles';
 import { Testimonials } from './components/Testimonials';
+import { Blog } from './components/Blog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Project stack={superjob.stack} title={superjob.title} description={superjob.description} links={superjob.links} image={superjob.image} alt={superjob.alt} style={goldCard} />
       <Project stack={superjob.stack} title={superjob.title} description={superjob.description} links={superjob.links} image={superjob.image} alt={superjob.alt} style={greenCard} />
       <Testimonials />
+      <Blog />
     </div>
   );
 }
