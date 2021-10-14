@@ -454,4 +454,29 @@ ul {
   font-size: 1.2em;
   line-height: 1.5;
   text-align: justify;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20em;
+  width: 100%;
+}
+.contact__description {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: -1em;
+}
+.contact__title {
+  font-size: 10em;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  cursor: pointer;
+  transition: 0.03s;
+}
+.contact__title:hover {
+  color: #161616;
 }/*# sourceMappingURL=style.css.map */
