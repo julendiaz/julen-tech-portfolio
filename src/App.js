@@ -10,6 +10,7 @@ import { blueCard, redCard, goldCard, greenCard } from './components/project-sty
 import { Testimonials } from './components/Testimonials';
 import { Blog } from './components/Blog';
 import { Contact } from './components/Contact';
+
 function App() {
   return (
     <div className="App"> 
