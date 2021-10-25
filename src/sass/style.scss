@@ -10,7 +10,6 @@
 @use "./2_utils/_mixins.scss";
 
 // // 3_layout
-@use "./3_layout/_footer.scss";
 @use "./3_layout/_form-container.scss";
 @use "./3_layout/_header.scss";
 @use "./3_layout/_main-container.scss";
@@ -30,6 +29,7 @@
 @use "./4_modules/_blog.scss";
 @use "./4_modules/_about.scss";
 @use "./4_modules/_contact.scss";
+@use "./4_modules/_footer.scss";
 
 // 6_queries
 @use "./5_queries/_queries.scss";

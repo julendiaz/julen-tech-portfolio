@@ -479,4 +479,43 @@ ul {
 }
 .contact__title:hover {
   color: #161616;
+}
+
+.footer {
+  width: 100%;
+  height: 20em;
+  color: #fafafa;
+}
+.footer__first-line {
+  display: flex;
+  flex-direction: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161616;
+}
+.footer__main-logo {
+  opacity: 60%;
+}
+.footer__main-logo:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.footer__links {
+  width: 40em;
+}
+.footer__links--container {
+  display: flex;
+  flex-direction: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__links--link a {
+  color: #fafafa;
+}
+.footer__social-media--logo {
+  width: 3em;
+  height: auto;
+}
+.footer__second-line {
+  background-color: #303030;
 }/*# sourceMappingURL=style.css.map */

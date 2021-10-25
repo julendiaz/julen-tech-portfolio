@@ -1,0 +1,45 @@
+@use "../1_base/colors" as *;
+@use "../2_utils/mixins" as *;
+@use "../2_utils/functions" as *;
+
+.footer {
+  width: 100%;
+  height: 20em;
+  color: $white_100;
+  &__first-line {
+    @include flex(0, center, space-between);
+    background-color: $black_800;
+  }
+
+  &__main-logo {
+    opacity: 60%;
+
+    &:hover {
+      opacity: 100%;
+      cursor: pointer;
+    }
+  }
+
+  &__links {
+    width: 40em;
+    &--container {
+      @include flex(0, center, space-between);
+    }
+
+    &--link {
+      a {
+        color: $white_100;
+      }
+    }
+  }
+
+  &__social-media {
+    &--logo {
+      width: 3em;
+      height: auto;
+    }
+  }
+  &__second-line {
+    background-color: $black_700;
+  }
+}
