@@ -4,16 +4,21 @@
 
 .footer {
   width: 100%;
-  height: 20em;
+  height: 12em;
+  margin-top: 16em;
   color: $white_100;
+  background-color: $black_700;
   &__first-line {
     @include flex(0, center, space-between);
     background-color: $black_800;
+    height: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 
   &__main-logo {
     opacity: 60%;
-
+    font-size: 1.3em;
     &:hover {
       opacity: 100%;
       cursor: pointer;
@@ -29,17 +34,54 @@
     &--link {
       a {
         color: $white_100;
+        opacity: 0.7;
+        font-weight: weight(medium);
+
+        &:hover {
+          opacity: 1;
+        }
       }
     }
   }
 
   &__social-media {
     &--logo {
-      width: 3em;
+      width: 1.5em;
       height: auto;
+      margin-left: 1em;
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
   &__second-line {
+    @include flex(0, center, center);
+    width: 100%;
     background-color: $black_700;
+    padding-top: 2em;
+
+    h3 {
+      margin-right: 2em;
+    }
   }
+
+  &__subscribe-input {
+    width: 25em;
+    height: 3.3em;
+    padding-left: 1.3em;
+    background-color: $black_800;
+    border: none;
+    color: $white_100;
+    appearance: none;
+    margin-right: 1.5em;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+#github-logo {
+  filter: invert(1);
 }

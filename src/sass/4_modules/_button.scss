@@ -50,4 +50,14 @@
       background-color: $black_800;
     }
   }
+
+  &--signup {
+    background-color: $black_800;
+    width: 8em;
+    height: 3em;
+
+    &:hover {
+      background-color: rgb(29, 29, 29);
+    }
+  }
 }
